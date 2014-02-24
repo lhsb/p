@@ -3,7 +3,7 @@
 m = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31] # days in month
 
 def set_leap(year):
-    # set number days of February for given year
+    # set the number of the days of February for given year
     if year % 400 == 0:
         m[1] = 29
     elif year % 100 == 0:
